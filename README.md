@@ -2,7 +2,7 @@
 
 [![Design Automation](https://img.shields.io/badge/Design%20Automation-v3-brightgreen)](https://forge.autodesk.com/en/docs/design-automation/v3)
 [![Autodesk Construction Cloud API](https://img.shields.io/badge/ACC-v1-brightgreen.svg)](https://forge.autodesk.com/en/docs/acc/v1/overview/)
-![.NET5.0](https://img.shields.io/badge/.NET-5.0-brightgreen.svg)
+![.NET6.0](https://img.shields.io/badge/.NET-6.0-brightgreen.svg)
 ![Beginner](https://img.shields.io/badge/Level-Beginner-green.svg)
 [![License](https://img.shields.io/:license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
