@@ -79,8 +79,8 @@ Right-click on the project, then go to **Add New Item\Web\JSON File**. Adjust th
 
 Alternatively, right-click on the project, then go to **Debug**. Adjust the settings as shown below. For environment variable, define the following:
 
-- FORGE_CLIENT_ID: `your id here`
-- FORGE_CLIENT_SECRET: `your secret here`
+- APS_CLIENT_ID: `your id here`
+- APS_CLIENT_SECRET: `your secret here`
 
 **Visual Studio Code** (Windows, MacOS):
 

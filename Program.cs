@@ -108,9 +108,9 @@
 
         /// <summary>
         /// The GetOwnerAsync.
-        /// </summary>
-        /// <param name="clientId">The clientId<see cref="string"/>.</param>
-        /// <returns>The <see cref="Task{(string owner, string token)}"/>.</returns>
+                                                        /// </summary>
+                                                        /// <param name="clientId">The clientId<see cref="string"/>.</param>
+                                                        /// <returns>The <see cref="Task{(string owner, string token)}"/>.</returns>
         private static async Task<(string owner, string token)> GetOwnerAsync(string clientId)
         {
             Console.WriteLine("Setting up owner...");
@@ -247,8 +247,8 @@
             forgeConfiguration = daConfig.GetSection("Forge").Get<ForgeConfiguration>();
             if (String.IsNullOrEmpty(forgeConfiguration.ClientId) || String.IsNullOrEmpty(forgeConfiguration.ClientSecret))
             {
-                var forgeClientId = Environment.GetEnvironmentVariable("FORGE_CLIENT_ID");
-                var forgeClientSecret = Environment.GetEnvironmentVariable("FORGE_CLIENT_SECRET");
+                var forgeClientId = Environment.GetEnvironmentVariable("APS_CLIENT_ID");
+                var forgeClientSecret = Environment.GetEnvironmentVariable("APS_CLIENT_SECRET");
                 forgeConfiguration = new ForgeConfiguration
                 {
                     ClientId = forgeClientId,
@@ -325,7 +325,6 @@
             //Step2 : Setup configuration to use Forge and DA client
 
             Api = SetupConfig(out ForgeConfiguration forgeConfiguration, logger);
-
             //Get three legged token
             var oAuthHandler = OAuthHandler.Create(forgeConfiguration);
 
