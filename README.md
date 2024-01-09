@@ -65,7 +65,7 @@ dotnet run
 
 **Visual Studio** (Windows):
 
-Right-click on the project, then go to **Add New Item\Web\JSON File**. Adjust the settings as shown below. Set Forge variables, define the following:
+Right-click on the project, then go to **Add New Item\Web\JSON File** with name `appsettings.user.json`. Adjust the settings as shown below. Set Forge variables, define the following:
 
 ```json
 {
